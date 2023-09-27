@@ -10,9 +10,13 @@ public class positiveornot {
 		{
 			System.out.println("the number"+number+"is positive");
 		}
-		else
+		else if(number<0)
 		{
 			System.out.println("the number"+number+"negative");
+		}
+		else
+		{
+			System.out.println("tne number is zero");
 		}
 		
 	}
