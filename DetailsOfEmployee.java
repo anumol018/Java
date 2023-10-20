@@ -11,14 +11,14 @@ public class DetailsOfEmployee {
 		Officer officer=new Officer();
 		officer.getdetails();
 		officer.getsalary();
-		officer.getspecialisation();
+		officer.getspecialization();
 		System.out.println("Officer Details:");
 		officer.printdetails();
-		officer.printspecialisation();
+		officer.printspecialization();
 		Manager manager=new Manager();
 		manager.getdetails();
 		manager.getdepartment();
-		officer.getsalary();
+		manager.getsalary();
 		System.out.println("Mnager Details:");
 		manager.printdetails();
 		manager.printdepartment();
@@ -54,8 +54,8 @@ class Employee{
 }
 class Officer extends  Employee {
 	String specialization;
-	public void getspecialisation() {
-		System.out.println("enter specialisation:");
+	public void getspecialization() {
+		System.out.println("enter specialization:");
 		specialization=sc.next();
 	}
 	public void printspecialisation() {
