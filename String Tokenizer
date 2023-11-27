@@ -1,0 +1,18 @@
+import java.util.StringTokenizer;
+import java.util.Scanner;
+public class StirngTokenizerDemo {
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the data");
+		String data=sc.nextLine();
+		StringTokenizer string=new StringTokenizer(data);
+		int sum=0;
+		while(string.hasMoreTokens ()) {
+			int number=Integer.parseInt(string.nextToken());
+			System.out.println(number);
+			sum=sum+number;
+		}
+		System.out.println("Sum of given integers="+sum);
+	}
+
+}
