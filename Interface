@@ -61,7 +61,7 @@ class Cat extends Animal implements Pet{
 	}
 	
 	public void eat() {
-		System.out.println("Cat eat fshes");
+		System.out.println("Cat eat fishes");
 	}
 	@Override
 	public String getName() {
